@@ -8,7 +8,71 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: $fontfamily-base;
+  font-size: 16px;
+  background-color: $background-color;
+}
 
-body{
-    font-size: 16px;
+.container {
+  max-width: 1366px;
+}
+
+.font-size-18 {
+  font-size: $fontsize-18;
+  font-weight: $medium;
+}
+
+.font-size-16 {
+  font-weight: $regular;
+}
+
+.gray-100 {
+  color: $gray-100;
+}
+.gray-200 {
+  color: $gray-200;
+}
+
+.gray-300 {
+  color: $gray-300;
+}
+
+//navbar
+
+.header {
+  background-color: $white;
+
+  .navbar-light .navbar-nav .nav-link {
+    color: $gray-100;
+  }
+
+  .btn-primary {
+    background-color: $primary;
+    width: 120px;
+    text-align: center;
+  }
+
+  .form-control {
+    width: 287px;
+    border-radius: 5px;
+    border-color: $gray-100;
+  }
+}
+
+.profile-info {
+  background-color: $white;
+  border-radius: 10px;
+  padding-bottom: 30px;
+}
+
+.icons-info {
+  background-color: $gray-300;
+  border-radius: 5px;
+  width: 283px;
+  padding-left: 22px;
+}
+
+.info {
+  margin-top: -12px;
 }
