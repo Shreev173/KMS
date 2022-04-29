@@ -68,10 +68,35 @@ body {
   background-color: #fafbfd;
   border-radius: 5px;
   width: 283px;
-  padding-left: 22px;
+  margin-left: 48px;
+  padding-left: 20px;
 }
 
 .info {
   margin-top: -12px;
+}
+
+.stats {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 228px;
+}
+
+.p-num {
+  font-size: 3rem;
+  color: #eb5757;
+}
+
+.p-num-2 {
+  color: #2f80ed;
+}
+
+.p-num-3 {
+  color: #00c48c;
+}
+
+.table {
+  background-color: #fafbfd;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=main.css.map */

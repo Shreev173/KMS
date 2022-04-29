@@ -70,9 +70,34 @@ body {
   background-color: $gray-300;
   border-radius: 5px;
   width: 283px;
-  padding-left: 22px;
+  margin-left: 48px;
+  padding-left: 20px;
 }
 
 .info {
   margin-top: -12px;
+}
+
+.stats {
+  background-color: $white;
+  border-radius: 5px;
+  width: 228px;
+}
+
+.p-num {
+  font-size: 3rem;
+  color: $red;
+}
+
+.p-num-2 {
+  color: $secondary;
+}
+
+.p-num-3 {
+  color: $green;
+}
+
+.table {
+  background-color: $gray-300;
+  border-radius: 5px;
 }
