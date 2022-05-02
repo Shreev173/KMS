@@ -39,7 +39,7 @@ var options = {
   plotOptions: {
     bar: {
       horizontal: false,
-      borderRadius: 10,
+      borderRadius: 0,
     },
   },
   xaxis: {
@@ -57,15 +57,14 @@ var options = {
     ],
   },
   legend: {
-    position: "right",
-    offsetY: 40,
+    position: "top",
+    offsetY: 10,
   },
-  fill: {
-    opacity: 1,
-  },
+
   fill: {
     colors: ["#2F80ED", "#00C48C", "#EB5757"],
   },
+  colors: ["#2F80ED", "#00C48C", "#EB5757"],
 };
 
 var chart = new ApexCharts(document.querySelector("#chart"), options);
