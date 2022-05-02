@@ -156,12 +156,7 @@ footer .footer-paragraph {
   margin-bottom: 10px;
 }
 
-.wrapper {
-  width: 60%;
-  display: block;
-  overflow: hidden;
-  padding: 60px 50px;
-  background: #fff;
-  border-radius: 4px;
+.chart {
+  width: 780px;
 }
 /*# sourceMappingURL=main.css.map */

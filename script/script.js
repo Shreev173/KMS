@@ -1,16 +1,16 @@
 var options = {
   series: [
     {
-      name: "PRODUCT A",
-      data: [44, 55, 41, 67, 22, 43],
+      name: "Ongoing Courses",
+      data: [44, 55, 41, 67, 22, 43, 66, 30, 20, 10],
     },
     {
-      name: "PRODUCT B",
-      data: [13, 23, 20, 8, 13, 27],
+      name: "Completed Courses",
+      data: [13, 23, 20, 8, 13, 27, 26, 20, 40, 30],
     },
     {
-      name: "PRODUCT C",
-      data: [11, 17, 15, 15, 21, 14],
+      name: "Enrolled Course",
+      data: [11, 17, 15, 15, 21, 14, 26, 11, 20, 10],
     },
   ],
   chart: {
@@ -43,14 +43,17 @@ var options = {
     },
   },
   xaxis: {
-    type: "datetime",
     categories: [
-      "01/01/2011 GMT",
-      "01/02/2011 GMT",
-      "01/03/2011 GMT",
-      "01/04/2011 GMT",
-      "01/05/2011 GMT",
-      "01/06/2011 GMT",
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
     ],
   },
   legend: {
@@ -59,6 +62,9 @@ var options = {
   },
   fill: {
     opacity: 1,
+  },
+  fill: {
+    colors: ["#2F80ED", "#00C48C", "#EB5757"],
   },
 };
 
