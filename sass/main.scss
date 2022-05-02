@@ -23,8 +23,17 @@ body {
   font-weight: $medium;
 }
 
+.font-size-18-regular {
+  font-size: $fontsize-18;
+  font-weight: $regular;
+}
+
 .font-size-16 {
   font-weight: $regular;
+}
+
+.font-size-16-medium {
+  font-weight: $medium;
 }
 
 .gray-100 {
@@ -38,10 +47,18 @@ body {
   color: $gray-300;
 }
 
+.background {
+  background-color: $white;
+}
+
+a {
+  color: $primary;
+}
+
 //navbar
 
 .header {
-  background-color: $white;
+  // background-color: $white;
 
   .navbar-light .navbar-nav .nav-link {
     color: $gray-100;
@@ -61,7 +78,6 @@ body {
 }
 
 .profile-info {
-  background-color: $white;
   border-radius: 10px;
   padding-bottom: 30px;
 }
@@ -97,7 +113,61 @@ body {
   color: $green;
 }
 
-.table {
-  background-color: $gray-300;
+.activity-stats {
+  margin-top: -20px;
+}
+
+.tag {
+  text-align: center;
   border-radius: 5px;
+  width: 98px;
+  padding: 5px 2px;
+  margin-left: 150px;
+}
+
+.tag-1 {
+  background-color: $green;
+  color: $white;
+}
+.tag-1 {
+  background-color: $green;
+  color: $white;
+}
+
+.tag-2 {
+  background-color: $tag-blue;
+  color: $white;
+}
+
+.tag-3 {
+  background-color: $tag-red;
+  color: $white;
+}
+
+//footer
+
+footer {
+  background-color: $primary;
+  color: $white;
+  padding-top: 2px;
+  padding-bottom: 20px;
+
+  .footer-header {
+    font-size: 1.3125rem;
+    font-weight: $bold;
+    margin-bottom: 22px;
+  }
+
+  .footer-paragraph {
+    margin-bottom: 10px;
+  }
+}
+
+.wrapper {
+  width: 60%;
+  display: block;
+  overflow: hidden;
+  padding: 60px 50px;
+  background: #fff;
+  border-radius: 4px;
 }

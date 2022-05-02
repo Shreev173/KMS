@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="/sass/main.css" />
   </head>
   <body>
-    <section id="header" class="header">
+    <section id="header" class="header background">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand pr-5" href="#"
@@ -73,7 +73,7 @@
       <div class="container mt-5">
         <div class="row">
           <div class="col-lg-4 col-md-8 col-sm-12">
-            <div class="profile-info ml-3">
+            <div class="profile-info background ml-3">
               <div class="text-center pt-5">
                 <img src="images/profile.svg" alt="profile" />
 
@@ -176,36 +176,141 @@
             </div>
           </div>
 
-          <div class="col-lg-2 ml-4">
-            <div class="stats pl-3 pt-3">
-              <h1 class="font-size-18 gray-100">Courses Enrolled</h1>
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-lg-3 ml-4">
+                <div class="stats pl-3 pt-3">
+                  <h1 class="font-size-18 gray-100">Courses Enrolled</h1>
 
-              <div class="number">
-                <p class="p-num">30</p>
+                  <div class="number">
+                    <p class="p-num">30</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 ml-5">
+                <div class="stats pl-3 pt-3">
+                  <h1 class="font-size-18 gray-100">Ongoing Courses</h1>
+
+                  <div class="number">
+                    <p class="p-num p-num-2">18</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 ml-5">
+                <div class="stats pl-3 pt-3">
+                  <h1 class="font-size-18 gray-100">Completed Courses</h1>
+
+                  <div class="number">
+                    <p class="p-num p-num-3">12</p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-2 ml-5">
-            <div class="stats pl-3 pt-3">
-              <h1 class="font-size-18 gray-100">Ongoing Courses</h1>
 
-              <div class="number">
-                <p class="p-num p-num-2">18</p>
+            <div class="row ml-4 mt-3" id="chart">
+              <div class="col-lg-11 background">
+          
               </div>
             </div>
-          </div>
-          <div class="col-lg-2 ml-5">
-            <div class="stats pl-3 pt-3">
-              <h1 class="font-size-18 gray-100">Completed Courses</h1>
+            <div class="row ml-4 mt-4 activities">
+              <div class="col-lg-11 background">
+                <div class="d-flex justify-content-between pl-3 mt-4">
+                  <h1 class="font-size-18 gray-100">Activities</h1>
+                  <a href="#" class="font-size-16-medium pr-5">View All</a>
+                </div>
 
-              <div class="number">
-                <p class="p-num p-num-3">12</p>
+                <div class="d-flex justify-content-between mt-3">
+                  <p class="font-size-16-medium gray-100 pl-3">Courses</p>
+                  <p class="font-size-16-medium gray-100 ">Date Enrolled</p>
+                  <p class="font-size-16-medium gray-100 pr-5 ">Status</p>
+                </div>
+
+                <!-- <div class="d-flex justify-content-between">
+                  <p class="font-size-16-medium gray-100 pl-3">Java Course Advance</p>
+                  <div class="d-flex align-items-center">
+                    <img src="icons/Calendar.svg" alt="calendar">
+                    <p class="font-size-16-medium gray-100 pl-3">2022/03/06</p>
+                  </div>
+                  <p class="font-size-16-medium gray-100 pr-5 ">Status</p>
+                </div> -->
+
+                <div class="row"> 
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <p class="font-size-16-medium gray-100 pl-3">Java Course Advance</p>
+                  </div>
+                  <div class="col-lg-2 col-md-4 col-sm-12 d-flex align-items-center mb-5 ml-5 ">
+                    <img src="icons/calendar.svg" alt="calendar">
+                    <p class="font-size-16-medium gray-100 m-0 pl-2">2022/03/06</p>
+                  </div>
+                  <div class="col-lg-2 col-md-4 col-sm-12 ml-5 ">
+                    <p class="font-size-16 gray-100 tag tag-1">Completed</p>
+                  </div>
+                </div> 
+                <div class="row activity-stats"> 
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <p class="font-size-16-medium gray-100 pl-3">Python Course Advance</p>
+                  </div>
+                  <div class="col-lg-2 col-md-4 col-sm-12 d-flex align-items-center mb-5 ml-5 ">
+                    <img src="icons/calendar.svg" alt="calendar">
+                    <p class="font-size-16-medium gray-100 m-0 pl-2">2022/04/16</p>
+                  </div>
+                  <div class="col-lg-2 col-md-4 col-sm-12 ml-5 ">
+                    <p class="font-size-16 gray-100 tag tag-2">Ongoing</p>
+                  </div>
+                </div> 
+                <div class="row activity-stats"> 
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <p class="font-size-16-medium gray-100 pl-3">Php Course Advance</p>
+                  </div>
+                  <div class="col-lg-2 col-md-4 col-sm-12 d-flex align-items-center mb-5 ml-5 ">
+                    <img src="icons/calendar.svg" alt="calendar">
+                    <p class="font-size-16-medium gray-100 m-0 pl-2">2022/05/28</p>
+                  </div>
+                  <div class="col-lg-2 col-md-4 col-sm-12 ml-5 ">
+                    <p class="font-size-16 gray-100 tag tag-3">Enrolled</p>
+                  </div>
+                </div> 
+               
+                
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <footer class="mt-5">
+      <div class=" container">
+        <div class="row mt-5">
+           
+          <div class="mt-4 col-lg-4">
+            <img src="images/logo.svg" alt="logo" />  
+          </div>  
+          <div class="col-lg-4 mt-4">
+          <h1 class="footer-header"> Useful Links</h1>
+          <p class=" footer-paragraph font-size-18-regular">Home</p>
+          <p class=" footer-paragraph font-size-18-regular">About</p>
+          <p class=" footer-paragraph font-size-18-regular">Service</p>
+          <p class=" footer-paragraph font-size-18-regular">Contact</p>
+          </div>
+
+
+          <div class="col-lg-4 mt-4">
+            <h1 class="footer-header"> Contact</h1>
+            <p class=" footer-paragraph font-size-18-regular">Kathmandu , Nepal</p>
+            <p class=" footer-paragraph font-size-18-regular">+977-9812345678</p>
+            <p class=" footer-paragraph font-size-18-regular">info@plgsp.gov.np</p>
+        
+            </div>
+        
+        </div>
+       
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <script src="/script/script.js"></script>
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
